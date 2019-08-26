@@ -17,6 +17,7 @@ hr{
 .header{
     height: fit-content;
     text-align: center;
+    min-width: 1200px;
 }
 .header-wrapper{
     max-width: 1200px;
