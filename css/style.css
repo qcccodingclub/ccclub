@@ -1,0 +1,237 @@
+/*
+font-family: 'Lexend Zetta', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+hr{
+    border: #e8e8e8 1px solid;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.header{
+    height: fit-content;
+    text-align: center;
+}
+.header-wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header img{
+    margin: 20px;
+    width: 150px;
+
+}
+.header p{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.header-info{
+    text-align: center;
+}
+.header-info img{
+    width: 1200px;
+    height: 550px;
+    margin: 30px;
+}
+.showroom{
+    height: fit-content;
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 18px;
+}
+.hackathon{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+.hackathon-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hackathon-container img{
+    width: 90%;
+}
+.hackathon h2,.bootcamp h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.hackathon-card{
+    text-align: center;
+    border: solid 3px rgb(220, 226, 220);
+    box-shadow:  8px 8px 5px slategray;
+    width: 30%;
+    border-radius: 8px;
+}
+.hackathon-card:hover{
+    transform: scale(1.2);
+    transition: 1s transform ease-in-out;
+}
+.hackathon-card h3{
+    font-family: 'Raleway';
+    font-size:25px;
+    margin: 20px;
+    color: rgb(75, 72, 72);
+
+}
+.btn{
+    width: 90%;
+    height:  auto;
+    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: #444040 1px solid;
+    border-radius: 6px;
+}
+btn:hover{
+    color: #444040;
+}
+.hackathon-card p{
+    text-align: justify;
+    width: 90%;
+    
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: 'Duru Sans', sans-serif;
+}
+.bootcamp{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+.bootcamp h2{
+    text-align: center;
+}
+.bootcamp-desc{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Duru Sans', sans-serif;
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+.bootcamp-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.bootcamp-card-column30{
+    width: 35%;
+    margin: auto;
+    margin-left: 5%;
+    padding: 2%;
+    border-left: #e8e8e8 3px solid;
+    border-top: #e8e8e8 3px solid;
+    height: 60%;
+    color: #444040;
+    
+}
+.bootcamp-card-group{
+}
+.bootcamp-card-column30 span{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    
+
+    }
+.bootcamp-card-column30 a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.bootcamp-card{
+    box-shadow:  8px 8px 6px slategray;
+    margin-top: 40px;
+    position: relative;
+    width: 65%;
+}
+.bootcamp-card-row{
+    display: flex;
+    flex-direction: row;
+    min-width: 1200px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.bootcamp-card img{
+    width: 100%;;
+}
+.bootcamp-card-info{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px white solid;
+    color: rgb(255, 255, 255);
+
+    background: rgb(46, 44, 44);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.bootcamp-card-info h3{
+    font-family: 'Raleway';
+    font-size:25px;
+    text-align: center;
+    
+}
+.bootcamp-card-info p{
+    font-size: 22px;
+    font-family: 'Duru Sans', sans-serif;
+    text-align: center;
+    width: 90%;
+    
+}
+.d-show{
+    opacity: 1;
+    transition: .75s opacity ease-out;
+}
+.d-hide{
+    opacity: 0;
+    transition: .50s opacity ease-out;
+}
+footer{
+    height: 250px;
+    background: black;
+    color: white;
+}
+.footer-column{
+    width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.footer-column p{
+    margin-top: 20px;
+}
+.footer-column i{
+    margin-left: 20px;
+}
+
+/*###################
+Animations
+#####################
+*/
