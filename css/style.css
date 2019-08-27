@@ -350,7 +350,8 @@ Animations
         margin-bottom: 6%;
     }
     footer{
-        min-width: 768px;
+        min-width: auto;
+        max-width: 768px;
         width: 100%;
         
     }
