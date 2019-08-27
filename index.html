@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <script src="https://kit.fontawesome.com/045351e548.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Duru+Sans|Raleway|Lexend+Zetta&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/045351e548.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Duru+Sans|Raleway|Lexend+Zetta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,6 @@
         <div class="header-wrapper">
             <img src="img/logo1.png" alt="">
             <p>Get ready to take control of your carreer.</p>
-
         </div>
     </section>
     <section class="header-info">
@@ -25,32 +24,49 @@
         <div class="hackathon">
             <h2>Hackathon Spring 2019</h2>
             <p>The Goal of this Hackathon was to allow students to use their creativity, programing languages and collaborate with one another to create a live website that markets their skills.<br>
-
                     <br>The theme of the Hackathon was to create a website “Helping Students Navigate QCC”.<br>
-                    
                     <br>Students had a total of 10 weeks dedicated to the Hackathon and were required to use time outside of the Coding Club to collaborate and complete their project.</p>
            <br><br> <div class="hackathon-container">
                 <div class="hackathon-card">
                     <h3>Team TTT</h3>
                     <img src="img/ttt.PNG" alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod omnis nulla porro eius natus aliquid vitae molestiae, itaque culpa commodi odit facere consectetur at quibusdam voluptate minima atque distinctio? Voluptates?</p>
-                    <button class="btn">
+                    <p>
+                        <ul>
+                            <li>Sung Ahn</li>
+                            <li>Amalan Tharmarasa</li>
+                            <li>Sarah Beliveu</li>
+                            <li>Alex Chen</li>
+                        </ul>
+                    </p>
+                    <a href="https://qcc-ttt.netlify.com/" target="_blank"><button class="btn">
                         See Website
-                    </button>
+                    </button></a>
                 </div>
                 <div class="hackathon-card">
                     <h3>Team Hack Solo</h3>
                     <img src="img/hacksolo.PNG" alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod omnis nulla porro eius natus aliquid vitae molestiae, itaque culpa commodi odit facere consectetur at quibusdam voluptate minima atque distinctio? Voluptates?</p>
-                </div>
+                    <p>
+                        <ul>
+                            <li>Rashad Landrum</li>
+                        </ul>
+                    </p>
+                    <a href="https://qcc-hacksolo.netlify.com" target="_blank"><button class="btn">
+                        See Website
+                    </button></a></div>
                 <div class="hackathon-card">
                     <h3>Static Startup</h3>
-                    <img src="img/staticstartup.PNG" alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod omnis nulla porro eius natus aliquid vitae molestiae, itaque culpa commodi odit facere consectetur at quibusdam voluptate minima atque distinctio? Voluptates?</p>
-                </div>
-
+                    <img src="img/staticstartup.PNG"  alt="">
+                    <p>
+                        <ul>
+                            <li>Jewel Clarke-Henry</li>
+                            <li>Christian Gomez</li>
+                            <li>Changoh Hong</li>
+                        </ul>
+                    </p>
+                    <a href="https://qcc-staticstartup.netlify.com" target="_blank"><button class="btn">
+                        See Website
+                    </button></a></div>
             </div>
-            
         </div>
         <hr>
     </section>
@@ -80,7 +96,6 @@
                     <div class="bootcamp-card-group">
                         <i class="fab fa-github-square fa-2x"></i><a href="https://github.com/qcccodingclub/pastel"><span>Github</span></a>
                     </div>
-                    
                 </div>
             </div>
             <!--New Row-->
@@ -89,7 +104,7 @@
                     <img class="bootcamp-card-img d-show" src="img/cars.PNG" alt="">
                     <div class="bootcamp-card-info d-hide">
                         <h3>Cars</h3>
-                        <p>With a sophisticated design and amazing colors, Pastel will guide you through Pastel Color Design</p>
+                        <p>Sleek and fresh design. Cars will give an insight of the best cars in the world.</p>
                     </div>
                 </div>
                 <div class="bootcamp-card-column30">
@@ -105,7 +120,6 @@
                     <div class="bootcamp-card-group">
                         <i class="fab fa-github-square fa-2x"></i><a href="https://github.com/qcccodingclub/cars"><span>Github</span></a>
                     </div>
-                    
                 </div>
             </div>
             <!--New Row-->
@@ -114,7 +128,7 @@
                     <img class="bootcamp-card-img d-show" src="img/myfavfood.PNG" alt="">
                     <div class="bootcamp-card-info d-hide"> 
                         <h3>My Favourite Food</h3>
-                        <p>With a sophisticated design and amazing colors, Pastel will guide you through Pastel Color Design</p>
+                        <p>Final project for the Bootcamp</p>
                     </div>
                 </div>
                 <div class="bootcamp-card-column30">
@@ -130,7 +144,6 @@
                     <div class="bootcamp-card-group">
                         <i class="fab fa-github-square fa-2x"></i><a href="https://github.com/itivanmartinez/MyFavFood"><span>Github</span></a>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -138,7 +151,7 @@
     <footer>
         <div class="footer-wrapper">
             <div class="footer-column">
-                <p><span>&copy;</span>Copyright</p>
+                <p onload="displayYear();"><span>&copy;</span>Copyright <span id="CYear"></span></p>
                 <p><i class="fab fa-github fa-5x"></i>
                     <i class="fab fa-youtube fa-5x"></i></p>
             </div>
@@ -155,6 +168,11 @@
         showthis.classList.remove("d-show");
         showthis.classList.add("d-hide");
     }
+   
+        var d = new Date();
+        element=document.getElementById("CYear");
+        element.innerHTML=d.getFullYear();
+
     </script>
 </body>
 </html>

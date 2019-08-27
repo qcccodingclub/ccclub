@@ -7,6 +7,7 @@ font-family: 'Permanent Marker', cursive;
 *{
     box-sizing: border-box;
     margin: 0;
+    color:#444040;
 }
 hr{
     border: #e8e8e8 1px solid;
@@ -73,22 +74,33 @@ hr{
     border: solid 3px rgb(220, 226, 220);
     box-shadow:  8px 8px 5px slategray;
     width: 30%;
-    border-radius: 8px;
 }
 .hackathon-card:hover{
-    transform: scale(1.2);
-    transition: 1s transform ease-in-out;
+    transform: scale(1.05);
+    transition: .5s transform ease-in-out;
+}
+.hackathon-card ul{
+    min-height: 100px;
+    padding: 0;
+}
+.hackathon-card li{
+    list-style-type: none;
 }
 .hackathon-card h3{
     font-family: 'Raleway';
     font-size:25px;
     margin: 20px;
     color: rgb(75, 72, 72);
-
+}
+.btn,a{
+    cursor: pointer;
+}
+.btn:hover{
+    background: #444040;
+    color: #e8e8e8;
 }
 .btn{
     width: 90%;
-    height:  auto;
     font-size: 20px;
     font-family: 'News Cycle', sans-serif;
     padding: 10px;
@@ -96,10 +108,9 @@ hr{
     background: transparent;
     border: #444040 1px solid;
     border-radius: 6px;
+
 }
-btn:hover{
-    color: #444040;
-}
+
 .hackathon-card p{
     text-align: justify;
     width: 90%;
@@ -144,8 +155,7 @@ btn:hover{
     color: #444040;
     
 }
-.bootcamp-card-group{
-}
+
 .bootcamp-card-column30 span{
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
@@ -193,6 +203,10 @@ btn:hover{
     text-align: center;
     flex-direction: column;
 }
+.bootcamp-card-info *{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
 .bootcamp-card-info h3{
     font-family: 'Raleway';
     font-size:25px;
@@ -216,8 +230,14 @@ btn:hover{
 }
 footer{
     height: 250px;
+    min-width: 1200px;
     background: black;
+   
+}
+footer * {
     color: white;
+    font-size: 30px;
+    
 }
 .footer-column{
     width: 1200px;
@@ -236,3 +256,113 @@ footer{
 Animations
 #####################
 */
+@media only screen and (max-width: 992px) {
+    hr{
+        width: 80%;
+    }
+    .header{
+        min-width: 769px;
+    }
+    .header-wrapper{
+        max-width: 992px;
+    }  
+    .header-info img{
+        width: 80%;
+        height: 350px;
+    }
+    .hackathon{
+        width: 80%;  
+    }
+    .bootcamp{
+        width: 80%;
+        min-width: 768px;
+    }
+    .bootcamp-card-row{
+        width: 80%;
+        min-width: 768px;
+        padding-bottom: 40px;
+    }
+    .bootcamp-card-column30 span{
+        font-size: 20px;
+    }
+    footer{
+        min-width: 768px;
+        width: 100%;
+        
+    }
+    .footer-column{
+        width: 80%;
+        font-size-adjust: inherit;
+        
+    }
+    .footer-column *{
+        font-size: 20px;
+    }
+    .footer-column i{
+        font-size: 75px;
+    }
+
+  } 
+@media only screen and (max-width:767px){
+
+    .header{
+        min-width: auto;
+    }
+    .header-wrapper{
+        max-width: 768px;
+    }  
+    .header-info img{
+        width: 80%;
+        height: 350px;
+    }
+    .hackathon{
+        width: 100%;  
+        margin: auto;
+    }
+    .hackathon-container{
+        flex-direction: column;
+    }
+    .hackathon-card{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    .bootcamp{
+        width: 80%;
+        min-width: auto;
+    }
+    .bootcamp-card-row{
+        width: 100%;
+        min-width: auto;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bootcamp-card-column30{
+        width: 100%;
+        margin: auto;
+    }
+    .bootcamp-card-column30 span{
+        font-size: 20px;
+    }
+    .bootcamp-card{
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    footer{
+        min-width: 768px;
+        width: 100%;
+        
+    }
+    .footer-column{
+        width: 80%;
+        font-size-adjust: inherit;
+        
+    }
+    .footer-column *{
+        font-size: 20px;
+    }
+    .footer-column i{
+        font-size: 75px;
+    }
+}
